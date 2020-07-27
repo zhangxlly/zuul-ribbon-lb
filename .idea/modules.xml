@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bos-zuul/bos-zuul.iml" filepath="$PROJECT_DIR$/bos-zuul/bos-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider1001/provider1001.iml" filepath="$PROJECT_DIR$/provider1001/provider1001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider1002/provider1002.iml" filepath="$PROJECT_DIR$/provider1002/provider1002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider1003/provider1003.iml" filepath="$PROJECT_DIR$/provider1003/provider1003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxl-test-zuul.iml" filepath="$PROJECT_DIR$/zxl-test-zuul.iml" />
+    </modules>
+  </component>
+</project>
