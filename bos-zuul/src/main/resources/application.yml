@@ -21,11 +21,12 @@ api-1:
     ## 服务节点
     listOfServers: localhost:1001,localhost:1002,localhost:1003
     ## 分发策略
-    NFLoadBalancerRuleClassName: com.zxl.test.boszuul.rules.IpUserHashRule
+#    NFLoadBalancerRuleClassName: com.zxl.test.boszuul.rules.IpUserHashRule
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
     ## 健康检查
     NFLoadBalancerPingClassName: com.zxl.test.boszuul.configs.HealthExamination
-    NFLoadBalancerPingInterval: 90
-#    ConnectTimeout: 1000
+    NFLoadBalancerPingInterval: 20
+    ConnectTimeout: 60000
 #    ReadTimeout: 3000
 #    MaxTotalHttpConnections: 500
 #    MaxConnectionsPerHost: 100
